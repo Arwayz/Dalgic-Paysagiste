@@ -3,18 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Perso</title>
+    <title>Dalgic Paysagiste</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Bienvenue sur mon site</h1>
-        <p>Clique sur les liens ci-dessous :</p>
-        <div class="links">
-            <a href="#">Mon Instagram</a>
-            <a href="#">Mon Facebook</a>
-            <a href="#">Mon Contact</a>
+    <header>
+        <div class="container">
+            <!-- Logo -->
+            <div class="logo">
+                <img src="logo.png" alt="Logo Dalgic Paysagiste">
+                <h1>Dalgic Paysagiste</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">À Propos</a></li>
+                    <li><a href="#quote">Demande de Devis</a></li>
+                </ul>
+            </nav>
         </div>
-    </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Transformez votre espace extérieur</h2>
+            <p>Nous sommes spécialisés dans l'aménagement paysager de qualité.</p>
+            <a href="#contact" class="btn">Contactez-nous</a>
+        </div>
+    </section>
+
+    <section id="services" class="box-container">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <div class="service-box">
+                <h3>Aménagement de jardins</h3>
+                <p>Création de jardins sur mesure selon vos goûts et besoins.</p>
+            </div>
+            <div class="service-box">
+                <h3>Entretien extérieur</h3>
+                <p>Entretien régulier pour garder votre espace toujours propre et soigné.</p>
+            </div>
+            <div class="service-box">
+                <h3>Petite maçonnerie</h3>
+                <p>Réalisation de murets, allées et autres éléments en béton ou pierre.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="box-container">
+        <div class="container">
+            <h2>Contactez-nous</h2>
+            <form action="#" method="post">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Votre message" required></textarea>
+                <button type="submit" class="btn">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="about" class="box-container">
+        <div class="container">
+            <h2>À Propos</h2>
+            <div class="about-box">
+                <p>Chez Dalgic Paysagiste, nous mettons tout en œuvre pour vous offrir un service de qualité, personnalisé et adapté à vos besoins. Nous nous engageons à créer des espaces extérieurs qui vous ressemblent.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="quote" class="box-container">
+        <div class="container">
+            <h2>Demande de Devis</h2>
+            <form action="#" method="post">
+                <input type="text" placeholder="Nom" required>
+                <input type="email" placeholder="Email" required>
+                <textarea placeholder="Détails de votre projet" required></textarea>
+                <button type="submit" class="btn">Envoyer la demande</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Dalgic Paysagiste | Tous droits réservés</p>
+        </div>
+    </footer>
 </body>
 </html>
