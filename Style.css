@@ -34,7 +34,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 200px; /* Taille du logo ajustée */
+    width: 800px; /* Augmenter la taille du logo 4x */
     height: auto;
     margin-right: 20px;
 }
@@ -178,5 +178,4 @@ footer {
 
 @keyframes slideIn {
     0% { transform: translateX(-100%); }
-    100% { transform: translateX(0); }
-}
+    100% { transform: translate
